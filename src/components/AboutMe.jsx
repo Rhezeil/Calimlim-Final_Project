@@ -6,11 +6,11 @@ const AboutMe = () => {
       <h2 className="text-3xl font-bold text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-600 transition duration-300">
         About Me
       </h2>
-      
+
       <div className="mt-6 flex flex-col md:flex-row items-center gap-6">
         {/* Profile Image */}
         <img
-          src="/images/IMG_6727.jpg"  // Path to image in public/images
+          src="/images/IMG_6727.jpg"  // Image path
           alt="Rhezeil Glei"
           className="w-36 h-36 rounded-full object-cover shadow-md border-4 border-blue-400 dark:border-blue-600"
         />
@@ -25,4 +25,3 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
-
