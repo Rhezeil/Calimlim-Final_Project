@@ -1,12 +1,22 @@
-import React from "react";
+import React from 'react';
 
-function Skills() {
-	return (
-		<section className="my-12">
-			<h2 className="text-3xl font-semibold text-blue-600">Skills</h2>
-			<p className="text-lg mt-4">This is Skills Section.</p>
-		</section>
-	);
-}
+const Skills = () => {
+  return (
+    <section className="my-12 p-6 bg-white/70 backdrop-blur-md rounded-xl shadow-lg" data-aos="fade-up">
+      <h2 className="text-3xl font-bold text-blue-600 hover:text-blue-800 transition duration-300">Skills</h2>
+      <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg">
+        <div>Tech-savvy</div>
+        <div>Calendar Management</div>
+        <div>Administrative Support</div>
+        <div>Google & MS Office</div>
+        <div>Confidentiality</div>
+        <div>Project Management</div>
+        <div>Photoshop (Basic)</div>
+        <div>Video Editing</div>
+      </div>
+    </section>
+  );
+};
 
 export default Skills;
+
