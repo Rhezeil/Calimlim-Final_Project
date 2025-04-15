@@ -7,10 +7,11 @@ const AboutMe = () => {
       <img src="/IMG_6727.jpg" alt="Profile" className="w-32 h-32 rounded-full mx-auto mb-4 shadow-md" />
       <p className="text-lg leading-relaxed text-center">
         I'm Rhezeil "Glei" Calimlim, an IT student at the University of the Cordilleras, majoring in Network and Security.
-        I'm passionate about tech, a fast learner, and I love solving real-world problems through digital solutions.
       </p>
     </section>
   );
 };
 
 export default AboutMe;
+
+

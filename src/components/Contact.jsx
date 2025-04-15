@@ -8,10 +8,11 @@ const Contact = () => {
         <p><strong>Email:</strong> <a href="mailto:rhezeilgeli@gmail.com" className="text-blue-500 underline">rhezeilgeli@gmail.com</a></p>
         <p><strong>Phone:</strong> +63 966 736 6729</p>
         <p><strong>Location:</strong> #50 Nevada Rd, Sto.Rosario Valley, Baguio City 2600</p>
-        
+       
       </div>
     </section>
   );
 };
 
 export default Contact;
+
