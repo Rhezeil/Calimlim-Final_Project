@@ -17,7 +17,7 @@ const AboutMe = () => {
         </p>
         <div className="flex justify-center">
           <img
-            src="/images/IMG_6727.jpg"
+            src="/image/IMG_6727.jpg"
             alt="Rhezeil Calimlim"
             className="w-40 h-40 rounded-full object-cover border-4 border-gray-800 dark:border-white shadow-md"
           />
