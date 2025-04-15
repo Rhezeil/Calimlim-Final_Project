@@ -24,7 +24,7 @@ function App() {
     <div className={`min-h-screen w-full flex flex-col items-center justify-center transition duration-500 ${darkMode ? 'bg-gray-900 text-white' : 'bg-pink-100 text-gray-900'}`}>
       <button
         onClick={toggleDarkMode}
-        className="fixed top-4 right-4 z-50 bg-white dark:bg-black text-black dark:text-white px-4 py-2 rounded-full shadow"
+      className="fixed top-4 left-4 z-50 bg-white dark:bg-black text-black dark:text-white px-4 py-2 rounded-full shadow"
       >
         {darkMode ? '🌙' : '☀️'}
       </button>
@@ -34,11 +34,8 @@ function App() {
         <p className="text-lg mt-2">Network & Security • Web Developer</p>
       </header>
 
-      <div className="flex justify-center items-center mt-8">
-       
-      </div>
-
-      <main className="max-w-4xl mx-auto px-6 py-12 space-y-12 w-full">
+      
+      <main className="w-full max-w-4xl px-6 py-12 flex flex-col items-center justify-center space-y-12 text-center">
         <AboutMe />
         <Education />
         <Experience />
