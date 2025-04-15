@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
-
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -42,7 +41,7 @@ function App() {
       </header>
 
       <main className="max-w-5xl mx-auto px-6 py-10 space-y-12 mt-10">
-        {/* Add animations to each section */}
+        {/* Section with Flexbox and AOS animations */}
         <div className="flex flex-col items-center" data-aos="fade-up">
           <AboutMe />
         </div>
