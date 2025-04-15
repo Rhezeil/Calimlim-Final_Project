@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div className="mt-6 flex flex-col md:flex-row items-center gap-6">
         {/* Profile Image */}
         <img
-          src="/images/IMG_6727.jpg"  // Path to image in the public/images folder
+          src="/images/IMG_6727.jpg"  // Path to image in public/images
           alt="Rhezeil Glei"
           className="w-36 h-36 rounded-full object-cover shadow-md border-4 border-blue-400 dark:border-blue-600"
         />
@@ -25,3 +25,4 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
