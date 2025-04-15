@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -9,62 +11,38 @@ import Contact from './components/Contact';
 function App() {
   const [darkMode, setDarkMode] = useState(false);
 
-  // Initialize AOS (Animate on Scroll)
   useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration
-      once: true, // Make animations occur once
-    });
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
-  // Toggle dark mode
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
-    if (!darkMode) {
-      document.documentElement.classList.add('dark');
-    } else {
-      document.documentElement.classList.remove('dark');
-    }
+    document.documentElement.classList.toggle('dark', !darkMode);
   };
 
   return (
-    <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-pink-100 text-gray-900'}`}>
-      <header className="text-center py-8 bg-pink-300 text-white shadow-lg">
-        <h1 className="text-5xl font-bold tracking-wide">Rhezeil Calimlim</h1>
-        <p className="text-lg mt-2">Network & Security • Web Developer</p>
+    <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-pink-100 text-gray-900'}`}>
+      
+      {/* Header */}
+      <header className="flex flex-col items-center justify-center text-center py-10 bg-pink-300 dark:bg-gray-800 shadow-lg space-y-2">
+        <h1 className="text-4xl sm:text-5xl font-bold tracking-wide">Rhezeil Calimlim</h1>
+        <p className="text-lg">Network & Security • Web Developer</p>
         <button
           onClick={toggleDarkMode}
-          className="fixed top-4 right-4 z-50 bg-white text-black dark:bg-black dark:text-white px-4 py-2 rounded shadow"
+          className="mt-4 bg-white dark:bg-black text-black dark:text-white px-4 py-2 rounded-full shadow hover:scale-105 transition"
         >
-          Toggle Dark Mode
+          {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
         </button>
       </header>
 
-      <main className="max-w-5xl mx-auto px-6 py-10 space-y-12 mt-10">
-        {/* Section with Flexbox and AOS animations */}
-        <div className="flex flex-col items-center" data-aos="fade-up">
+      {/* Main Content */}
+      <main className="flex flex-col items-center justify-center px-6 py-12 space-y-12">
+        <div className="w-full max-w-4xl space-y-10">
           <AboutMe />
-        </div>
-
-        <div className="flex flex-col items-center" data-aos="fade-up">
           <Education />
-        </div>
-
-        <div className="flex flex-col items-center" data-aos="fade-up">
           <Experience />
-        </div>
-
-        <div className="flex flex-col items-center" data-aos="fade-up">
           <Skills />
-        </div>
-
-        <div className="flex flex-col items-center" data-aos="fade-up">
           <Contact />
-        </div>
-
-        {/* Dark Mode Test */}
-        <div className="bg-pink-100 dark:bg-gray-900 text-gray-900 dark:text-white p-6 rounded-lg shadow-lg">
-          This div will change its background and text color based on dark mode.
         </div>
       </main>
     </div>
