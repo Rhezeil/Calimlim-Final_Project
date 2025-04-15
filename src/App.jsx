@@ -21,29 +21,24 @@ function App() {
   };
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900 text-white' : 'bg-pink-100 text-gray-900'}`}>
-      
-      {/* Header */}
-      <header className="flex flex-col items-center justify-center text-center py-10 bg-pink-300 dark:bg-gray-800 shadow-lg space-y-2">
-        <h1 className="text-4xl sm:text-5xl font-bold tracking-wide">Rhezeil Calimlim</h1>
-        <p className="text-lg">Network & Security • Web Developer</p>
+    <div className={`min-h-screen ${darkMode ? 'bg-gray-900 text-white' : 'bg-pink-100 text-gray-900'}`}>
+      <header className="text-center py-8 bg-pink-300 dark:bg-gray-800 text-white shadow-lg">
+        <h1 className="text-5xl font-bold tracking-wide">Rhezeil Calimlim</h1>
+        <p className="text-lg mt-2">Network & Security • Web Developer</p>
         <button
           onClick={toggleDarkMode}
-          className="mt-4 bg-white dark:bg-black text-black dark:text-white px-4 py-2 rounded-full shadow hover:scale-105 transition"
+          className="fixed top-4 right-4 z-50 bg-white text-black dark:bg-black dark:text-white px-4 py-2 rounded shadow"
         >
-          {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+          Toggle Dark Mode
         </button>
       </header>
 
-      {/* Main Content */}
-      <main className="flex flex-col items-center justify-center px-6 py-12 space-y-12">
-        <div className="w-full max-w-4xl space-y-10">
-          <AboutMe />
-          <Education />
-          <Experience />
-          <Skills />
-          <Contact />
-        </div>
+      <main className="max-w-5xl mx-auto px-6 py-10 flex flex-col gap-12 items-center">
+        <AboutMe />
+        <Education />
+        <Experience />
+        <Skills />
+        <Contact />
       </main>
     </div>
   );
