@@ -7,7 +7,7 @@ const Education = () => {
       <div className="mt-4 text-lg">
         <strong>BS in Information Technology – Network and Security</strong><br />
         University of the Cordilleras<br />
-        2020 – 2024
+        2023 to present
       </div>
     </section>
   );
