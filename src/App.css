@@ -1,11 +1,74 @@
+/* Import Tailwind's default base styles */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Custom styles */
+
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* Smooth scrolling for anchor links */
 }
 
 body {
-  @apply transition-colors duration-300 ease-in-out;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; /* Light mode default background */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark/light mode */
 }
+
+.dark body {
+  background-color: #2D2D2D; /* Dark mode background */
+  color: white; /* Dark mode text color */
+}
+
+/* Custom background and text colors */
+.bg-light {
+  background-color: #f0f4f8; /* Light background */
+}
+
+.text-light {
+  color: #333; /* Light text */
+}
+
+.text-dark {
+  color: #fff; /* Dark text color */
+}
+
+/* Example of customized card component */
+.card {
+  @apply p-6 rounded-lg shadow-lg transition duration-300 ease-in-out;
+}
+
+/* Add custom focus states for accessibility */
+:focus {
+  outline: 3px solid #ffcc00;
+}
+
+/* Optional: AOS (Animate on Scroll) styles */
+[data-aos="fade-up"] {
+  animation: fadeInUp 1s ease-out;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Add custom styles for specific components if needed */
+h2 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+/* Centering the content */
+.center-content {
+  @apply flex justify-center items-center;
+}
+

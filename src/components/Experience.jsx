@@ -1,8 +1,12 @@
+// src/components/Experience.jsx
 import React from "react";
 
 const Experience = () => {
   return (
-    <section className="my-12 p-6 bg-white/70 backdrop-blur-md rounded-xl shadow-lg" data-aos="fade-up">
+    <section
+      className="my-12 p-6 bg-white/70 dark:bg-gray-800/70 backdrop-blur-md rounded-xl shadow-lg"
+      data-aos="fade-up"
+    >
       <h2 className="text-3xl font-bold text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-600 transition duration-300">
         Experience
       </h2>
@@ -23,6 +27,3 @@ const Experience = () => {
 };
 
 export default Experience;
-
-
-
