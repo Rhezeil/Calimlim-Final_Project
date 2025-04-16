@@ -3,7 +3,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.css'; // Ensure this is present
 
-
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
 import Experience from './components/Experience';
@@ -34,12 +33,6 @@ function App() {
       >
         {darkMode ? '🌙' : '☀️'}
       </button>
-
-      {/* Header */}
-      <header className="flex flex-col items-center justify-center py-8 bg-pink-300 dark:bg-gray-800 text-white w-full shadow-md">
-        <h1 className="text-4xl font-bold tracking-wide">Rhezeil Calimlim</h1>
-        <p className="text-lg mt-1">Network & Security • Web Developer</p>
-      </header>
 
       {/* Main Content */}
       <main className="max-w-4xl mx-auto px-6 py-12 space-y-12 flex flex-col items-center text-center">

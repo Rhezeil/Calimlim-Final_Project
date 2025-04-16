@@ -31,3 +31,39 @@ body {
 :focus {
   outline: 3px solid #ffcc00;
 }
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Custom Tailwind CSS */
+.bg-primary-light {
+  background-color: #f0f4f8;
+}
+
+.bg-primary-dark {
+  background-color: #1a202c;
+}
+
+.bg-secondary-light {
+  background-color: #f7fafc;
+}
+
+.bg-secondary-dark {
+  background-color: #2d3748;
+}
