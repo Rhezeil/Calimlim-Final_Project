@@ -1,27 +1,33 @@
-// src/components/AboutMe.jsx
-import React from "react";
+// tailwind.config.js
+const colors = require('tailwindcss/colors');
 
-const AboutMe = () => {
-  return (
-    <section className="mb-8" data-aos="fade-up">
-      <h2 className="text-3xl font-bold text-blue-600 border-b-2 border-blue-600 pb-2 mb-4 dark:text-blue-400">
-        About Me
-      </h2>
-      <div className="text-lg mt-4 leading-relaxed space-y-4">
-        <p>
-          I'm Rhezeil "Glei" Calimlim, an IT student at the University of the
-          Cordilleras.
-        </p>
-        <div className="flex justify-center">
-          <img
-            src="/images/IMG_6727.jpg"
-            alt="Rhezeil Calimlim"
-            className="w-40 h-40 rounded-full object-cover border-4 border-gray-800 dark:border-white shadow-md"
-          />
-        </div>
-      </div>
-    </section>
-  );
+module.exports = {
+  content: ['./src/**/*.{js,jsx,ts,tsx}'],
+  darkMode: 'class',
+  theme: {
+    extend: {
+      colors: {
+        'primary-light': '#F7F8FC',
+        'secondary-light': '#FFFFFF',
+        'ternary-light': '#f6f7f8',
+
+        'primary-dark': '#0D2438',
+        'secondary-dark': '#102D44',
+        'ternary-dark': '#1E3851',
+      },
+      container: {
+        padding: {
+          DEFAULT: '1rem',
+          sm: '2rem',
+          lg: '5rem',
+          xl: '6rem',
+          '2xl': '8rem',
+        },
+      },
+    },
+  },
+  variants: {
+    extend: { opacity: ['disabled'] },
+  },
+  plugins: [require('@tailwindcss/forms')],
 };
-
-export default AboutMe;
