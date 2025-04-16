@@ -39,14 +39,7 @@ function App() {
         <p className="text-lg mt-1">Network & Security • Web Developer</p>
       </header>
 
-      {/* Centered Image */}
-      <div className="flex justify-center items-center my-10">
-        <img
-          src="/images/IMG_6727.jpg"
-          alt="Rhezeil Calimlim"
-          className="w-40 h-40 rounded-full object-cover border-4 border-gray-800 dark:border-white shadow-lg"
-        />
-      </div>
+      
 
       {/* Main Content - Centered & Responsive */}
       <main className="max-w-4xl mx-auto px-6 py-12 space-y-12 flex flex-col items-center text-center">
