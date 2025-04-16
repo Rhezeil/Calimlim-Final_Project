@@ -6,7 +6,7 @@ const Contact = () => {
       <h2 className="text-3xl font-bold text-blue-600 border-b-2 border-blue-600 dark:text-blue-400 dark:border-blue-400 pb-2 mb-6 text-center">
         Contact
       </h2>
-      <div className="text-lg space-y-2 text-center">
+      <div className="text-lg space-y-6 text-center">
         <p>
           <strong>Email:</strong>{" "}
           <a href="mailto:rhezeilgeli@gmail.com" className="text-blue-500 underline">

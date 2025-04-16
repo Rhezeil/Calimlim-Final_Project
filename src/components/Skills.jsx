@@ -6,7 +6,7 @@ const Skills = () => {
       <h2 className="text-3xl font-bold text-blue-600 border-b-2 border-blue-600 dark:text-blue-400 dark:border-blue-400 pb-2 mb-6 text-center">
         Skills
       </h2>
-      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg text-center">
+      <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 text-lg text-center space-y-4">
         <div>Tech-savvy</div>
         <div>Calendar Management</div>
         <div>Administrative Support</div>

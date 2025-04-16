@@ -6,7 +6,7 @@ const AboutMe = () => {
       <h2 className="text-3xl font-bold text-blue-600 border-b-2 border-blue-600 dark:text-blue-400 dark:border-blue-400 pb-2 mb-6 text-center">
         About Me
       </h2>
-      <div className="text-lg leading-relaxed space-y-4 text-center">
+      <div className="text-lg leading-relaxed space-y-6 text-center">
         <p>
           I'm Rhezeil "Glei" Calimlim, an IT student at the University of the Cordilleras.
         </p>
