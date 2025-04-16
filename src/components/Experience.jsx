@@ -12,6 +12,7 @@ const Experience = () => {
           <br />
           Managed schedules, calls, paperwork, and events.
         </li>
+        <li></li>
         <li>
           <strong>Part-time PA – Travel and Tours 88</strong> (2016–2017)
           <br />
