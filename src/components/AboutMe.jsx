@@ -3,10 +3,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section
-      className="my-12 p-6 bg-white/70 backdrop-blur-md rounded-xl shadow-lg w-full text-center dark:bg-gray-800 dark:text-white"
-      data-aos="fade-up"
-    >
+    <section className="card-section" data-aos="fade-up">
       <h2 className="text-3xl font-bold text-blue-600 dark:text-blue-400 transition duration-300">
         About Me
       </h2>
