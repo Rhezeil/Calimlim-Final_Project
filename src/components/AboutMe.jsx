@@ -9,11 +9,12 @@ const AboutMe = () => {
           About Me
         </h2>
         <div className="flex justify-center mb-6">
-          <img
+        <img
             src="/images/Glei.jpg"
             alt="Rhezeil Calimlim"
-            className="w-40 h-40 rounded-full object-cover border-2 border-gray-300 dark:border-white shadow-md"
-          />
+            className="rounded-full object-cover border border-blue-400 dark:border-blue-300 shadow-md mx-auto"
+            style={{ width: '300px', height: '300px' }}
+/>
         </div>
         <p className="text-lg text-gray-700 dark:text-gray-300">
           I'm Rhezeil "Glei" Calimlim, an IT student at the University of the Cordilleras, passionate about technology and digital solutions.
