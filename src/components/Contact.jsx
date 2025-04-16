@@ -15,17 +15,7 @@ const Contact = () => {
         </p>
         <p><strong>Phone:</strong> +63 966 736 6729</p>
         <p><strong>Location:</strong> #50 Nevada Rd, Sto.Rosario Valley, Baguio City 2600</p>
-        <p>
-          <strong>LinkedIn:</strong>{' '}
-          <a
-            href="https://www.linkedin.com/in/rhezeil-calimlim-276513292/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-blue-500 underline"
-          >
-            linkedin.com/in/rhezeil-calimlim
-          </a>
-        </p>
+        
       </div>
     </section>
   );

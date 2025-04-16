@@ -12,10 +12,11 @@ const AboutMe = () => {
           Cordilleras.
         </p>
         <div className="flex justify-center">
-          <img
-            src="/image/IMG_6727.jpg" // Correct path for public/image/
+        <img
+            src="/images/Glei.jpg"
             alt="Rhezeil Calimlim"
-            className="w-40 h-40 rounded-full object-cover border-4 border-gray-800 dark:border-white shadow-md"
+            className="rounded-full object-cover border border-blue-400 dark:border-blue-300 shadow-md mx-auto"
+            style={{ width: '300px', height: '450px' }}
           />
         </div>
       </div>
