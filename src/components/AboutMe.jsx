@@ -11,11 +11,12 @@ const AboutMe = () => {
           I'm Rhezeil "Glei" Calimlim, an IT student at the University of the Cordilleras.
         </p>
         <div className="flex justify-center">
-          <img
-            src="/images/IMG_6727.jpg"
-            alt="Rhezeil Calimlim"
-            className="w-40 h-40 rounded-full object-cover border-2 border-gray-300 dark:border-white shadow-md"
-          />
+        <img
+          src="/images/Glei.jpg"
+          alt="Rhezeil Calimlim"
+          className="w-40 h-40 rounded-full object-cover border-2 border-gray-300 dark:border-white shadow-md"
+        />
+
         </div>
       </div>
     </section>
