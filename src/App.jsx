@@ -39,9 +39,7 @@ function App() {
         <p className="text-lg mt-1">Network & Security • Web Developer</p>
       </header>
 
-      
-
-      {/* Main Content - Centered & Responsive */}
+      {/* Main Content */}
       <main className="max-w-4xl mx-auto px-6 py-12 space-y-12 flex flex-col items-center text-center">
         <AboutMe />
         <Education />
