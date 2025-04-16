@@ -1,25 +1,23 @@
+// src/components/AboutMe.jsx
 import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className="bg-white dark:bg-secondary-dark p-6 rounded-2xl shadow-md mb-[20px]" data-aos="fade-up">
-      <h2 className="text-3xl font-bold text-blue-600 border-b-2 border-blue-600 dark:text-blue-400 dark:border-blue-400 pb-2 mb-6 text-center">
-        About Me
-      </h2>
-      <div className="text-lg leading-relaxed space-y-6 text-center">
-        <p>
-          I'm Rhezeil "Glei" Calimlim, an IT student at the University of the Cordilleras.
-        </p>
-        <div className="flex justify-center">
-        <img
-          src="/images/Glei.jpg"
-          alt="Rhezeil Calimlim"
-          className="rounded-full object-cover border border-blue-400 dark:border-blue-300 shadow-md mx-auto"
-          style={{ width: '150px', height: '150px' }}
-/>
-
-
+    <section id="about" className="py-12 bg-secondary-light dark:bg-secondary-dark">
+      <div className="container mx-auto px-6 text-center">
+        <h2 className="text-3xl font-bold text-blue-600 dark:text-blue-400 border-b-2 border-blue-600 dark:border-blue-400 pb-2 mb-6">
+          About Me
+        </h2>
+        <div className="flex justify-center mb-6">
+          <img
+            src="/images/Glei.jpg"
+            alt="Rhezeil Calimlim"
+            className="w-40 h-40 rounded-full object-cover border-2 border-gray-300 dark:border-white shadow-md"
+          />
         </div>
+        <p className="text-lg text-gray-700 dark:text-gray-300">
+          I'm Rhezeil "Glei" Calimlim, an IT student at the University of the Cordilleras, passionate about technology and digital solutions.
+        </p>
       </div>
     </section>
   );

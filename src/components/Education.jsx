@@ -1,17 +1,20 @@
-import React from "react";
+// src/components/Education.jsx
+import React from 'react';
 
 const Education = () => {
   return (
-    <section className="bg-white dark:bg-secondary-dark p-6 rounded-2xl shadow-md mb-[20px]" data-aos="fade-up">
-      <h2 className="text-3xl font-bold text-blue-600 border-b-2 border-blue-600 dark:text-blue-400 dark:border-blue-400 pb-2 mb-6 text-center">
-        Education
-      </h2>
-      <div className="text-lg text-center space-y-6">
-        <strong>BS in Information Technology – Network and Security</strong>
-        <br />
-        University of the Cordilleras
-        <br />
-        2023 to present
+    <section id="education" className="py-12 bg-primary-light dark:bg-primary-dark">
+      <div className="container mx-auto px-6 text-center">
+        <h2 className="text-3xl font-bold text-blue-600 dark:text-blue-400 border-b-2 border-blue-600 dark:border-blue-400 pb-2 mb-6">
+          Education
+        </h2>
+        <p className="text-lg text-gray-700 dark:text-gray-300">
+          <strong>BS in Information Technology – Network and Security</strong>
+          <br />
+          University of the Cordilleras
+          <br />
+          2023 to present
+        </p>
       </div>
     </section>
   );
