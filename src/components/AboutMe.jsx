@@ -1,5 +1,5 @@
 import React from "react";
-import GleiImage from '../assets/image/Glei.jpg';
+
 
 const AboutMe = () => {
   return (
@@ -13,10 +13,10 @@ const AboutMe = () => {
         </p>
         <div className="flex justify-center">
         <img
-            src={GleiImage}
-            alt="Rhezeil Calimlim"
-            className="w-40 h-40 rounded-full object-cover border-2 border-gray-300 dark:border-white shadow-md"
-          />
+          src="/images/Glei.jpg"  // Correct path to image inside public folder
+          alt="Rhezeil Calimlim"
+          className="w-40 h-40 rounded-full object-cover border-2 border-gray-300 dark:border-white shadow-md"
+        />
 
         </div>
       </div>
