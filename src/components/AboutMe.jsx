@@ -14,7 +14,7 @@ const AboutMe = () => {
         <img
             src="/images/Glei.jpg"
             alt="Rhezeil Calimlim"
-            className="w-24 h-24 rounded-full object-cover border-2 border-blue-400 dark:border-blue-300 shadow-lg transition-all duration-300"
+            className="w-15 h-15 rounded-full object-cover border-2 border-blue-400 dark:border-blue-300 shadow-lg transition-all duration-300"
           />
 
 
