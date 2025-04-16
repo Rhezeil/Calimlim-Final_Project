@@ -12,10 +12,11 @@ const AboutMe = () => {
         </p>
         <div className="flex justify-center">
         <img
-          src="/images/Glei.jpg"  // Correct path to image inside public folder
-          alt="Rhezeil Calimlim"
-          className="w-20 h-20 sm:w-22 sm:h-22 rounded-full object-cover border-2 border-gray-300 dark:border-white shadow-md"
-        />
+            src="/images/Glei.jpg"
+            alt="Rhezeil Calimlim"
+            className="w-24 h-24 rounded-full object-cover border-2 border-blue-400 dark:border-blue-300 shadow-lg transition-all duration-300"
+          />
+
 
         </div>
       </div>
