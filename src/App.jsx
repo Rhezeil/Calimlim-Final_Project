@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './index.css'; // Ensure this is present
+
 
 import AboutMe from './components/AboutMe';
 import Education from './components/Education';
