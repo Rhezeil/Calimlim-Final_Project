@@ -25,7 +25,7 @@ body {
 /* Dark mode styles */
 .dark body {
   background-color: #000000; /* Dark mode background */
-  color: #c2ffff; /* Dark mode text color */
+  color: #ffccce; /* Dark mode text color */
 }
 
 /* Optional: Add custom styles like focus states for accessibility */
