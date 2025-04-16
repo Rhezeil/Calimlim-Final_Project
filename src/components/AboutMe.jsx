@@ -1,27 +1,23 @@
-// In AboutMe.jsx
 import React from "react";
 
 const AboutMe = () => {
   return (
-    <section id="about" className="py-12 bg-secondary-light dark:bg-secondary-dark">
-      <div className="container mx-auto px-6 text-center">
-        <h2
-          className="text-3xl font-bold text-blue-600 dark:text-blue-400 border-b-2 border-blue-600 dark:border-blue-400 pb-2 mb-6"
-          data-aos="fade-up"
-        >
-          About Me
-        </h2>
-        <div className="flex justify-center mb-6" data-aos="zoom-in">
+    <section className="card-section" data-aos="fade-up">
+      <h2 className="text-3xl font-bold text-blue-600 dark:text-blue-400 transition duration-300">
+        About Me
+      </h2>
+      <div className="text-lg mt-4 leading-relaxed space-y-4">
+        <p>
+          I'm Rhezeil "Glei" Calimlim, an IT student at the University of the
+          Cordilleras.
+        </p>
+        <div className="flex justify-center">
           <img
-            src="/images/Glei.jpg"
+            src="/image/IMG_6727.jpg" // Correct path for public/image/
             alt="Rhezeil Calimlim"
-            className="rounded-full object-cover border border-blue-400 dark:border-blue-300 shadow-md mx-auto"
-            style={{ width: '300px', height: '450px' }}
+            className="w-40 h-40 rounded-full object-cover border-4 border-gray-800 dark:border-white shadow-md"
           />
         </div>
-        <p className="text-lg text-gray-700 dark:text-gray-300" data-aos="fade-up">
-          I'm Rhezeil "Glei" Calimlim, an IT student at the University of the Cordilleras, passionate about technology and digital solutions.
-        </p>
       </div>
     </section>
   );
