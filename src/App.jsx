@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './index.css'; // Ensure this is present
-import Header from './components/Header';
 
 
 import AboutMe from './components/AboutMe';
