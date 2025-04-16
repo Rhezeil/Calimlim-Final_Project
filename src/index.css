@@ -17,7 +17,8 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #c2ffff; /* Light mode background */
+  background-color: #ffccce; /* Light mode background */
+  color:black;
   transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark/light mode */
 }
 
