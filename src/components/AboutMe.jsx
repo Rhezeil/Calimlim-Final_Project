@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const AboutMe = () => {
   return (
     <section className="bg-white dark:bg-secondary-dark p-6 rounded-2xl shadow-md mb-[20px]" data-aos="fade-up">
