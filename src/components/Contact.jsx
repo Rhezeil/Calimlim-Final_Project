@@ -3,11 +3,11 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="card-section border-l-[1px] border-blue-600 p-4 mb-6" data-aos="fade-up">
-      <h2 className="text-3xl font-bold text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-600 transition duration-300">
+    <section className="mb-8" data-aos="fade-up">
+      <h2 className="text-3xl font-bold text-blue-600 border-b-2 border-blue-600 pb-2 mb-4 dark:text-blue-400">
         Contact
       </h2>
-      <div className="mt-4 text-lg space-y-4 text-center">
+      <div className="text-lg space-y-2 text-center">
         <p>
           <strong>Email:</strong>{' '}
           <a href="mailto:rhezeilgeli@gmail.com" className="text-blue-500 underline">
