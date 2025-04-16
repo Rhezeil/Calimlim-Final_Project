@@ -1,9 +1,11 @@
-// src/components/Contact.jsx
 import React from "react";
 
 const Contact = () => {
   return (
-    <section className="card-section" data-aos="fade-up">
+    <section
+      className="card-section border-4 border-red-600 rounded-lg p-6 mt-8 mb-8 shadow-lg"
+      data-aos="fade-up"
+    >
       <h2 className="text-3xl font-bold text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-600 transition duration-300">
         Contact
       </h2>

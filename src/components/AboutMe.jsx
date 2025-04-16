@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutMe = () => {
   return (
-    <section className="card-section" data-aos="fade-up">
+    <section className="card-section border-4 border-blue-600 rounded-lg p-6 mt-8 mb-8 shadow-lg" data-aos="fade-up">
       <h2 className="text-3xl font-bold text-blue-600 dark:text-blue-400 transition duration-300">
         About Me
       </h2>
@@ -13,12 +13,11 @@ const AboutMe = () => {
           Cordilleras.
         </p>
         <div className="flex justify-center">
-        <img
-          src="/images/IMG_6727.jpg" // Correct path for public/image/
-          alt="Rhezeil Calimlim"
-          className="w-40 h-40 rounded-full object-cover border-4 border-gray-800 dark:border-white shadow-md"
-        />
-
+          <img
+            src="/images/IMG_6727.jpg"
+            alt="Rhezeil Calimlim"
+            className="w-40 h-40 rounded-full object-cover border-4 border-gray-800 dark:border-white shadow-md"
+          />
         </div>
       </div>
     </section>
