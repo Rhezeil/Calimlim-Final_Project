@@ -17,14 +17,14 @@ body {
   font-family: 'Arial', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #fff; /* Light mode background */
+  background-color: #f9f9f1; /* Light mode background */
   transition: background-color 0.3s, color 0.3s; /* Smooth transition for dark/light mode */
 }
 
 /* Dark mode styles */
 .dark body {
-  background-color: #2D2D2D; /* Dark mode background */
-  color: white; /* Dark mode text color */
+  background-color: #090d28; /* Dark mode background */
+  color: #f9f9f1; /* Dark mode text color */
 }
 
 /* Optional: Add custom styles like focus states for accessibility */
